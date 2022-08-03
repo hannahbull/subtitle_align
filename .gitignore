@@ -40,8 +40,6 @@ TAGS
 inference_output/*
 figures/*
 checkpoints/*
-commands/*
-
 
 .ipynb_checkpoints*
 .vscode*
