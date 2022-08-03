@@ -1,4 +1,6 @@
 python main.py \
+--features_path '/scratch/shared/beegfs/gul/datasets/features/bobsl/featurize-c2281_16f_pad10sec_m8_-15_4_d0.8_-3_22_anon-v0-stride0.25/filtered/' \
+--spottings_path 'scratch/shared/beegfs/hbull/data/annotationsMDAPEN.pkl' \
 --gpu_id 0 \
 --batch_size 64 \
 --n_workers 32 \
@@ -19,4 +21,3 @@ python main.py \
 --n_epochs 100 \
 --shuffle_getitem True \
 --concatenate_prior True \
---resume 'inference_output/word_pretrain/checkpoints/model_0000219096.pt' \

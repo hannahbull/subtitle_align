@@ -1,4 +1,7 @@
 python main.py \
+--features_path '/scratch/shared/beegfs/gul/datasets/features/bobsl/featurize-c2281_16f_pad10sec_m8_-15_4_d0.8_-3_22_anon-v0-stride0.25/filtered/' \
+--gt_sub_path '/scratch/shared/beegfs/albanie/shared-datasets/bobsl/public_dataset_release/subtitles/manually-aligned/' \
+--pr_sub_path '/scratch/shared/beegfs/hbull/shared-datasets/bobsl/audio-aligned-corrected/' \
 --gpu_id 0 \
 --batch_size 64 \
 --n_workers 32 \
