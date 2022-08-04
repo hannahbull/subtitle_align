@@ -44,3 +44,5 @@ checkpoints/*
 .ipynb_checkpoints*
 .vscode*
 .vector_cache*
+
+data/bobsl_align_test_signer*

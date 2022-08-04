@@ -71,6 +71,10 @@ The manually-annotated signing-aligned subtitles are located in the folder `manu
 
 As pretraining, the model learns to localise sign spottings. These spottings are available at: [https://www.robots.ox.ac.uk/~vgg/research/bsldensify/](https://www.robots.ox.ac.uk/~vgg/research/bsldensify/). Here we use `M*` and `D*` spottings. Change the argument `spottings_path` to the location of this `.pkl` file. 
 
+# Checkpoints 
+
+Model checkpoints can be downloaded [here](https://drive.google.com/file/d/1GNIm1XXRDQNFNGZVbqFcyVTZo3dFzOlD/view?usp=sharing).
+
 # Setup
 
 Required packages are listed in `requirements.txt`. Uses Python 3.7.10.

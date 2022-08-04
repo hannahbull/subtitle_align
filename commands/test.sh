@@ -12,7 +12,7 @@ python main.py \
 --save_vtt True \
 --save_probs True \
 --dtw_postpro True \
---resume 'inference_output/finetune_subtitles_250341/checkpoints/model_0000264041.pt' \
+--resume 'inference_output/finetune_subtitles/checkpoints/model_0000264041.pt' \
 
 # Computed over 2642663 frames, 20338 sentences - Frame-level accuracy: 70.89 F1@0.10: 74.08 F1@0.25: 66.78 F1@0.50: 53.22
 
