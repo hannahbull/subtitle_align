@@ -73,7 +73,7 @@ As pretraining, the model learns to localise sign spottings. These spottings are
 
 # Checkpoints 
 
-Model checkpoints can be downloaded [here](https://drive.google.com/file/d/1GNIm1XXRDQNFNGZVbqFcyVTZo3dFzOlD/view?usp=sharing).
+Model checkpoints can be downloaded [here](https://drive.google.com/file/d/1GNIm1XXRDQNFNGZVbqFcyVTZo3dFzOlD/view?usp=sharing). As derivatives of the BOBSL dataset, please note that these model checkpoints are for academic and non-commercial research use only. 
 
 # Setup
 
@@ -117,5 +117,5 @@ Results are:
 
 > Computed over 2642663 frames, 20338 sentences - Frame-level accuracy: 70.89 F1@0.10: 74.08 F1@0.25: 66.78 F1@0.50: 53.22
 
-The predicted aligned subtitles are save in the folder provided in the argument `save_postpro_subs_folder`, by default `inference_output/subtitles_postprocessing`. 
+The predicted aligned subtitles are saved in the folder provided in the argument `save_postpro_subs_folder`, by default `inference_output/subtitles_postprocessing`. 
 
